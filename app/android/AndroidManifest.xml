@@ -3,9 +3,14 @@
       package="com.themerrybunch.unlockmypc"
       android:versionCode="1"
       android:versionName="1.0">
-    <application android:label="test" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk android:minSdkVersion="11"/>
+
+    <application android:label="UnlockMyPc" >
         <activity android:name="com.themerrybunch.unlockmypc.UnlockMyPcMainActivity"
-                  android:label="test">
+                  android:label="UnlockMyPc">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
